@@ -1,5 +1,4 @@
 'use strict';
-//const fn = null;
 
 const inc = function(n) {
   return n + 1;
@@ -19,4 +18,3 @@ const fn1 = inc(myNum.n);
 console.log(fn1);
 
 module.exports = { fn };
-
