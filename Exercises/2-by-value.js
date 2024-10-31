@@ -1,12 +1,5 @@
 'use strict';
 
-const inc = (blabla) => {
-  //blabla = [17,  -100, 'car', 'home', 'dog', '999'];
-  blabla += 1;
-  console.log(blabla);
-};
-const x = 7;
-inc(x);
+const inc = x => x += 1;
 
-console.log(x);
 module.exports = { inc };
