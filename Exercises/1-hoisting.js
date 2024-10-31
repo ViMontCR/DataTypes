@@ -1,12 +1,13 @@
 'use strict';
-//const fn = null;
 
-const inc = function(n) {
+const fn = function() {
+  const n = 7;
+  console.log(n);
   return n + 1;
 };
 
 const a = 8;
-const fn = inc(a);
+const abc = fn(a);
 
 const Num = {
   n: 0,
@@ -14,7 +15,7 @@ const Num = {
 
 const myNum = Object.create(Num);
 myNum.n = 9;
-const fn1 = inc(myNum.n);
+const fn1 = fn(myNum.n);
 
 console.log(fn1);
 
